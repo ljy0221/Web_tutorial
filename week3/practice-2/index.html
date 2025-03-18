@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <form action="/" id="contact-form">
+        <h2>How can we help you?</h2>
+        <ul class="form-list">
+            <li class="form-control">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </li>
+            <li class="form-control">
+                <label for="email">Your E-Mail Address</label>
+                <input type="email" id="email" name="email" required>
+            </li>
+            <li class="form-control">
+                <label for="phone">Your Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </li>
+            <li class="form-control">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message"></textarea>
+            </li>
+            <li class="form-control">
+                <label for="dropdown">How did you find us?</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="search">Web Search</option>
+                    <option value="word">Word of Mouth</option>
+                    <option value="other">Other</option>
+                </select>
+            </li>
+        </ul>
+
+        <h2>How should we reply?</h2>
+        <ul class="form-list">
+            <li class="radio-group">
+                <input type="radio" id="reply-call" name="reply" value="call">
+                <label for="reply-call">Call me</label>
+            </li>
+            <li class="radio-group">
+                <input type="radio" id="reply-email" name="reply" value="email">
+                <label for="reply-email">Send me an email</label>
+            </li>
+            <li class="radio-group">
+                <input type="radio" id="reply-none" name="reply" value="none">
+                <label for="reply-none">Don't reply</label>
+            </li>
+        </ul>
+
+        <div class="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">Accept Terms</label>
+        </div>
+
+        <div class="btn">
+            <button id="btn-reset" type="reset">Clear</button>
+            <button id="btn-submit" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
