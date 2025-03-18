@@ -1,0 +1,104 @@
+body {
+    background-color: #ECF9FD;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #F4F8FE;
+    width: 50%;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.form-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-control input,
+.form-control textarea,
+.form-control select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-control textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.radio-group input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+.terms {
+    margin: 1.5rem 0;
+}
+
+.btn {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+button {
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font: inherit;
+}
+
+#btn-reset {
+    background-color: #f8f9fa;
+    color: #666;
+    margin-right: 8px;
+}
+
+#btn-reset:hover {
+    background-color: #e9ecef;
+}
+
+#btn-submit {
+    background-color: #003e80;
+    color: white;
+}
+
+#btn-submit:hover {
+    background-color: #004c9e;
+}
