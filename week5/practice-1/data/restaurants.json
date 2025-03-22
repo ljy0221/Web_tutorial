@@ -1,0 +1,26 @@
+[
+  {
+    "name": "1",
+    "address": "1",
+    "cuisine": "1",
+    "website": "https://1.com",
+    "description": "1",
+    "uid": "3cc4bfe3-99fb-4854-a7ba-902969389ef1"
+  },
+  {
+    "name": "2",
+    "address": "2",
+    "cuisine": "2",
+    "website": "https://2.com",
+    "description": "2",
+    "uid": "25c91fef-d8d5-4f8c-aca1-c9bea8579a2a"
+  },
+  {
+    "name": "3",
+    "address": "3",
+    "cuisine": "3",
+    "website": "https://3.com",
+    "description": "3",
+    "uid": "d3cdd792-d166-4fb8-a835-5f451e47bb1c"
+  }
+]
